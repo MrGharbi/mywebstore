@@ -1,0 +1,5 @@
+package com.mag.webstore.dao;
+
+public class DAOContext {
+
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/mag/Desktop/MyWebStore/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3498247180.index
+3997222185.index
+1916961985.index
+2337071082.index
+1743861369.index
+1829932393.index
+2608442497.index
