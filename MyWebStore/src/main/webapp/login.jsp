@@ -31,6 +31,9 @@
           font-size: 3.5rem;
         }
       }
+      #errorMSG{
+      color: red;
+      }]
     </style>
 
     
@@ -44,9 +47,10 @@
     <img class="mb-4" src="assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
     <label for="inputUserName" class="visually-hidden">User name</label>
-    <input type="text" id="inputUserName" class="form-control" placeholder="User name" required autofocus>
+    <input type="text" id="inputUserName" class="form-control"  name = "login" value="${ login }" placeholder="User name" required autofocus>
     <label for="inputPassword" class="visually-hidden">Password</label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <input type="password" id="inputPassword" class="form-control" name = "password" value = "${ password }" placeholder="Password" required>
+    <div id = "errorMSG">${ errorMessage }</div>
     <div class="checkbox mb-3">
       <label>
         <input type="checkbox" value="remember-me"> Remember me

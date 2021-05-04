@@ -1,0 +1,16 @@
+package com.mag.webstore.business;
+
+public class User {
+	
+	private int idUser;
+	private String login;
+	private String password;
+	private int connectionNumber;
+	
+	public User () {
+		this( 0,"john", "doe", 0);
+	}
+	
+	
+	
+}
