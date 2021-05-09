@@ -1,0 +1,5 @@
+package com.mag.webstore.business;
+
+public class ShoppingCartLine {
+
+}
